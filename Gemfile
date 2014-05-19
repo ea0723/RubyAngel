@@ -60,6 +60,7 @@ group :test do
   gem "capybara-firebug", '~> 2.0.0'
   gem "codeclimate-test-reporter", require: false     # Semaphore & code climate integration: https://semaphoreapp.com/projects/2578/integrations/code_climate/new
   gem "timecop", "~> 0.7.0"                           # Set system time for tests
+  gem "cucumber-rails", "1.4.0", :require => false
 end
 
 # add these gems to help with the transition to Rails 4:
